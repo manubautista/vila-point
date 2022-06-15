@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(white, #999999);
+  background-image: linear-gradient(#999999, white);
   min-height: 615px;
 }
 
@@ -128,7 +128,7 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 100vh;
+  min-height: 50vw;
 }
 
 .u-section-2 .u-group-1 {
@@ -160,7 +160,8 @@
   width: 735px;
   min-height: 208px;
   background-image: none;
-  margin: 665px -19px 0;
+  height: auto;
+  margin: 569px -20px 0;
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -273,14 +274,20 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-2 .u-group-2 {
+    margin-left: -19px;
+    margin-right: -19px;
+    height: auto;
+  }
+
   .u-section-2 .u-list-1 {
-    width: 915px;
+    width: 947px;
     margin-top: -833px;
-    margin-right: auto;
+    margin-right: -19px;
   }
 
   .u-section-2 .u-repeater-1 {
-    min-height: 289px;
+    min-height: 318px;
   }
 
   .u-section-2 .u-container-layout-3 {
@@ -336,7 +343,7 @@
     min-height: 201px;
     width: 640px;
     margin-top: 696px;
-    margin-right: 0;
+    margin-right: -20px;
     margin-left: auto;
   }
 
@@ -350,6 +357,7 @@
   .u-section-2 .u-list-1 {
     width: 654px;
     margin-top: -949px;
+    margin-right: 0;
     margin-bottom: 405px;
   }
 
@@ -378,6 +386,7 @@
 
   .u-section-2 .u-group-2 {
     width: 540px;
+    margin-right: 0;
   }
 
   .u-section-2 .u-container-layout-2 {
@@ -389,7 +398,6 @@
     margin-top: 20px;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: initial;
   }
 
   .u-section-2 .u-list-1 {
@@ -441,7 +449,9 @@
   }
 
   .u-section-2 .u-text-2 {
-    margin: -31px 7px 0 20px;
+    margin-top: -31px;
+    margin-right: 7px;
+    margin-left: 20px;
   }
 
   .u-section-2 .u-list-1 {
@@ -631,7 +641,6 @@
   text-transform: uppercase;
   font-weight: 700;
   background-image: linear-gradient(to right, #a10000, black);
-  font-size: 1rem;
   margin: 8px auto 39px;
 }
 
@@ -664,6 +673,10 @@
 
   .u-section-3 .u-btn-3 {
     margin-left: 0;
+  }
+
+  .u-section-3 .u-btn-4 {
+    font-size: 1rem;
   }
 }
 
@@ -1605,7 +1618,7 @@
 }
 
 .u-section-6 .u-text-3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-transform: none;
   font-family: Montserrat, sans-serif;
   margin: 17px 0 0;
@@ -1635,7 +1648,7 @@
 }
 
 .u-section-6 .u-text-4 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-transform: none;
   font-family: Montserrat, sans-serif;
   margin: 17px 0 0;
@@ -1665,7 +1678,7 @@
 }
 
 .u-section-6 .u-text-5 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-transform: none;
   font-family: Montserrat, sans-serif;
   margin: 17px 0 0;
@@ -1695,7 +1708,7 @@
 }
 
 .u-section-6 .u-text-6 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-transform: none;
   font-family: Montserrat, sans-serif;
   margin: 17px 0 0;
@@ -1725,7 +1738,7 @@
 }
 
 .u-section-6 .u-text-7 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-transform: none;
   font-family: Montserrat, sans-serif;
   margin: 17px 0 0;
@@ -1755,7 +1768,7 @@
 }
 
 .u-section-6 .u-text-8 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-transform: none;
   font-family: Montserrat, sans-serif;
   margin: 17px 0 0;
@@ -1785,7 +1798,7 @@
 }
 
 .u-section-6 .u-text-9 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-transform: none;
   font-family: Montserrat, sans-serif;
   margin: 17px 0 0;
@@ -1815,7 +1828,7 @@
 }
 
 .u-section-6 .u-text-10 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-transform: none;
   font-family: Montserrat, sans-serif;
   margin: 17px 0 0;
@@ -1868,7 +1881,6 @@
   }
 
   .u-section-6 .u-text-3 {
-    font-size: 1.25rem;
     width: auto;
     margin-top: 13px;
   }
@@ -1886,7 +1898,6 @@
   }
 
   .u-section-6 .u-text-4 {
-    font-size: 1.25rem;
     width: auto;
     margin-top: 13px;
   }
@@ -1904,7 +1915,6 @@
   }
 
   .u-section-6 .u-text-5 {
-    font-size: 1.25rem;
     width: auto;
     margin-top: 13px;
   }
@@ -1922,7 +1932,6 @@
   }
 
   .u-section-6 .u-text-6 {
-    font-size: 1.25rem;
     width: auto;
     margin-top: 13px;
   }
@@ -1940,7 +1949,6 @@
   }
 
   .u-section-6 .u-text-7 {
-    font-size: 1.25rem;
     width: auto;
     margin-top: 13px;
   }
@@ -1959,7 +1967,6 @@
   }
 
   .u-section-6 .u-text-8 {
-    font-size: 1.25rem;
     width: auto;
     margin-top: 13px;
   }
@@ -1977,7 +1984,6 @@
   }
 
   .u-section-6 .u-text-9 {
-    font-size: 1.25rem;
     width: auto;
     margin-top: 13px;
   }
@@ -1995,7 +2001,6 @@
   }
 
   .u-section-6 .u-text-10 {
-    font-size: 1.25rem;
     width: auto;
     margin-top: 13px;
   }
