@@ -959,6 +959,7 @@
     margin-top: 30px;
     margin-bottom: 43px;
     margin-left: 181px;
+    font-size: 1rem;
   }
 }
 
@@ -1506,6 +1507,16 @@
     width: 80px;
     height: 80px;
   }
+
+  .u-section-4 .u-carousel-control-1 {
+    left: -14px;
+    top: 223px;
+  }
+
+  .u-section-4 .u-carousel-control-2 {
+    top: 223px;
+    right: -11px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1631,6 +1642,14 @@
   .u-section-4 .u-carousel-thumbnail-1 {
     width: 85px;
     height: 85px;
+  }
+
+  .u-section-4 .u-carousel-control-1 {
+    left: -12px;
+  }
+
+  .u-section-4 .u-carousel-control-2 {
+    right: -10px;
   }
 } .u-section-5 {
   background-image: url("/images/zyro-image11.jpg?rand=5edd");
